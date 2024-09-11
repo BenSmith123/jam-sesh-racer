@@ -41,6 +41,7 @@
     {"id":{"name":"Game","path":"scripts/Game/Game.yy",},},
     {"id":{"name":"Globals","path":"scripts/Globals/Globals.yy",},},
     {"id":{"name":"Player","path":"scripts/Player/Player.yy",},},
+    {"id":{"name":"Room","path":"scripts/Room/Room.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_vehicle","path":"sprites/spr_vehicle/spr_vehicle.yy",},},
   ],
