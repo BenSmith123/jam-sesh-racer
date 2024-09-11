@@ -1,2 +1,2 @@
 
-vehicle_speed = 4
+vehicle_speed = 0 // set by spawner
