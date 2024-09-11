@@ -16,13 +16,18 @@ function player_controls() {
 	// drive forward
 	if keyboard_check(ord("W")) || keyboard_check(vk_up)
 	{
-		y -= forward_speed
+		y -= acceleration
+		if (acceleration < acceleration_max) { acceleration += 0.5 }
+	}
+	else
+	{
+		acceleration = 0
 	}
 
 	// brake
 	if keyboard_check(ord("S")) || keyboard_check(vk_down)
 	{
-		y += forward_speed
+		y += global.scroll_speed
 	}
 
 }

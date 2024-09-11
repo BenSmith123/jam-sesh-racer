@@ -1,5 +1,6 @@
 
 spawn_frequency = 90 // 90 steps (1.5 seconds)
+spawn_frequency_min = 20
 
 lane_gap = 128
 lane_start_x = 640 - lane_gap

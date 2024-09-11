@@ -1,3 +1,5 @@
 
-forward_speed = 6
-steering_speed = 8
+steering_speed = 6
+
+acceleration = 0
+acceleration_max = 8
