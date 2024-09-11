@@ -19,3 +19,4 @@ if spawn_frequency > spawn_frequency_min { spawn_frequency -= 2 }
 show_debug_message(spawn_frequency)
 
 alarm[0] = spawn_frequency // reset alarm to spawn another
+

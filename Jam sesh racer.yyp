@@ -36,6 +36,8 @@
   "name":"Jam sesh racer",
   "resources":[
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
+    {"id":{"name":"obj_foliage_spawner","path":"objects/obj_foliage_spawner/obj_foliage_spawner.yy",},},
+    {"id":{"name":"obj_foliage","path":"objects/obj_foliage/obj_foliage.yy",},},
     {"id":{"name":"obj_player_crashed","path":"objects/obj_player_crashed/obj_player_crashed.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_reset_game","path":"objects/obj_reset_game/obj_reset_game.yy",},},
@@ -48,6 +50,7 @@
     {"id":{"name":"Player","path":"scripts/Player/Player.yy",},},
     {"id":{"name":"Room","path":"scripts/Room/Room.yy",},},
     {"id":{"name":"bg_street","path":"sprites/bg_street/bg_street.yy",},},
+    {"id":{"name":"spr_foliage","path":"sprites/spr_foliage/spr_foliage.yy",},},
     {"id":{"name":"spr_player_crashed","path":"sprites/spr_player_crashed/spr_player_crashed.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_reset_game","path":"sprites/spr_reset_game/spr_reset_game.yy",},},
