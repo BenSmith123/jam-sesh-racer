@@ -39,6 +39,8 @@
     {"id":{"name":"obj_vehicle","path":"objects/obj_vehicle/obj_vehicle.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Game","path":"scripts/Game/Game.yy",},},
+    {"id":{"name":"Globals","path":"scripts/Globals/Globals.yy",},},
+    {"id":{"name":"Player","path":"scripts/Player/Player.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_vehicle","path":"sprites/spr_vehicle/spr_vehicle.yy",},},
   ],

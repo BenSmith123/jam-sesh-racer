@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_vehicle",
+    "path":"sprites/spr_vehicle/spr_vehicle.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
