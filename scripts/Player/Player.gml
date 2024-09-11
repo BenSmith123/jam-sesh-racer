@@ -30,6 +30,9 @@ function player_controls() {
 
 function player_collisions() {
 
-	// TODO - implement	
+	// crashes into vehicle
+	if place_meeting(x, y, obj_vehicle) {
+		instance_destroy()
+	}
 	
 }

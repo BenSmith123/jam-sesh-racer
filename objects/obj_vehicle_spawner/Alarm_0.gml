@@ -1,5 +1,7 @@
 ///@description - spawn vehicle
 
+if global.game_state == GameState.Finished { exit }
+
 var lane = irandom_range(1, 6)
 var lane_x_offset = lane_gap * lane
 

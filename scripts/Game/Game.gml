@@ -9,3 +9,13 @@ function game_start() {
 	randomize() // randomize gamemakers seed
 
 }
+
+
+function game_end_playing() {
+	
+	global.game_state = GameState.Finished
+	global.scroll_speed = 0
+	
+	layer_vspeed("Background", global.scroll_speed)
+
+}
