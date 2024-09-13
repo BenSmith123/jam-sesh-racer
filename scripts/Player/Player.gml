@@ -7,15 +7,22 @@ function player_controls()
 	// move left
 	if keyboard_check(ord("A")) || keyboard_check(vk_left)
 	{
-		image_angle = 15
-		x -= steering_speed
+		if x > global.road_bountry_x_min
+		{
+			image_angle = 15
+			x -= steering_speed
+		}
+
 	}
 
 	// move right
 	if keyboard_check(ord("D")) || keyboard_check(vk_right)
 	{
-		image_angle = -15
-		x += steering_speed
+		if x < global.road_bountry_x_max
+		{
+			image_angle = -15
+			x += steering_speed
+		}
 	}
 
 	// drive forward
