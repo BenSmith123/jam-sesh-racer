@@ -1,15 +1,20 @@
 
-function player_controls() {
+function player_controls() 
+{
+
+	image_angle = 0 // reset the angle if not pressing left or right
 
 	// move left
 	if keyboard_check(ord("A")) || keyboard_check(vk_left)
 	{
+		image_angle = 15
 		x -= steering_speed
 	}
 
 	// move right
 	if keyboard_check(ord("D")) || keyboard_check(vk_right)
 	{
+		image_angle = -15
 		x += steering_speed
 	}
 
