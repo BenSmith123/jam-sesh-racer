@@ -6,7 +6,11 @@ enum GameState {
 }
 
 
-function initialise_globals() {
+function initialise_globals() 
+{
+	
+	// DEBUG
+	global.show_debug = false
 
 	// SETUP
 	
@@ -20,5 +24,8 @@ function initialise_globals() {
 	global.game_state = GameState.Playing
 	global.score = 0
 	
+	// min/max values for the x position of the road
+	global.road_bountry_x_min = 582
+	global.road_bountry_x_max = 1340
 
 }

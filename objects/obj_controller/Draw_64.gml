@@ -1,2 +1,2 @@
 
-draw_text(200, 200, "Score: " + string(global.score))
+draw_text(140, 200, "Score: " + number_format_commas(global.score))
