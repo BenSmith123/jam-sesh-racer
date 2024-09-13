@@ -11,7 +11,11 @@ vehicle.vehicle_speed = global.scroll_speed
 
 // half the speed if the vehicle is in the left lane
 var is_in_oncoming_lanes = vehicle.x > room_width / 2
-if is_in_oncoming_lanes { vehicle.vehicle_speed =  global.scroll_speed * 2 }
+if is_in_oncoming_lanes 
+{ 
+	vehicle.vehicle_speed =  global.scroll_speed * 2
+	vehicle.image_angle = 180
+}
 
 // speed up the spawn frequency
 if spawn_frequency > spawn_frequency_min { spawn_frequency -= 2 }

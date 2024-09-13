@@ -47,6 +47,7 @@
     {"id":{"name":"Game","path":"scripts/Game/Game.yy",},},
     {"id":{"name":"Globals","path":"scripts/Globals/Globals.yy",},},
     {"id":{"name":"instance_create","path":"scripts/instance_create/instance_create.yy",},},
+    {"id":{"name":"number_format_commas","path":"scripts/number_format_commas/number_format_commas.yy",},},
     {"id":{"name":"Player","path":"scripts/Player/Player.yy",},},
     {"id":{"name":"Room","path":"scripts/Room/Room.yy",},},
     {"id":{"name":"bg_street","path":"sprites/bg_street/bg_street.yy",},},
