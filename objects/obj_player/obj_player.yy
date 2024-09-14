@@ -35,9 +35,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_player",
-    "path":"sprites/spr_player/spr_player.yy",
+    "name":"spr_ambulance",
+    "path":"sprites/spr_ambulance/spr_ambulance.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_ambulance",
+    "path":"sprites/spr_ambulance/spr_ambulance.yy",
+  },
   "visible":true,
 }
