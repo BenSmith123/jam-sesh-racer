@@ -20,7 +20,7 @@ function initialise_globals()
 	
 	// IN GAME
 	
-	global.scroll_speed = 4 // speed in which vehicles, scenery etc. travel
+	global.scroll_speed = 6 // speed in which vehicles, scenery etc. travel
 	global.game_state = GameState.Playing
 	global.score = 0
 	
