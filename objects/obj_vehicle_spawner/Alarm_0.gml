@@ -7,7 +7,7 @@ var lane_x_offset = lane_gap * lane
 
 var vehicle = instance_create(x, y, obj_vehicle)
 vehicle.x = lane_start_x + lane_x_offset
-vehicle.vehicle_speed = global.scroll_speed
+vehicle.vehicle_speed = global.scroll_speed - 1
 
 // half the speed if the vehicle is in the left lane
 var is_in_oncoming_lanes = vehicle.x > room_width / 2
