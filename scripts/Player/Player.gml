@@ -3,14 +3,16 @@ function player_controls()
 {
 
 	image_angle = 0 // reset the angle if not pressing left or right
+	mask_index = sprite_index // reset collision box when not pressing left or right
 
 	// move left
 	if keyboard_check(ord("A")) || keyboard_check(vk_left)
 	{
 		if x > global.road_bountry_x_min
 		{
-			image_angle = 15
+			image_angle = 10
 			x -= steering_speed
+			mask_index = spr_ambulance_turn_left // adjust collision box
 		}
 
 	}
@@ -20,8 +22,9 @@ function player_controls()
 	{
 		if x < global.road_bountry_x_max
 		{
-			image_angle = -15
+			image_angle = -10
 			x += steering_speed
+			mask_index = spr_ambulance_turn_right // adjust collision box
 		}
 	}
 
@@ -36,10 +39,10 @@ function player_controls()
 		acceleration = 0
 	}
 
-	// brake
+	// brake/reverse
 	if keyboard_check(ord("S")) || keyboard_check(vk_down)
 	{
-		y += global.scroll_speed
+		y += 8
 	}
 
 }
