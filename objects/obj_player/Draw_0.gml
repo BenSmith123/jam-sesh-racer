@@ -11,4 +11,7 @@ if place_meeting(x, y-30, obj_vehicle)
 if global.show_debug
 {
 	draw_text(x,y-20, "x="+string(x))
+	draw_set_alpha(0.6)
+	draw_sprite(mask_index, 0, x, y)
+	draw_set_alpha(1)
 }
