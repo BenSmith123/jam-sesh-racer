@@ -10,7 +10,7 @@ function initialise_globals()
 {
 	
 	// DEBUG
-	global.show_debug = false
+	global.show_debug = true
 
 	// SETUP
 	
@@ -25,7 +25,7 @@ function initialise_globals()
 	global.score = 0
 	
 	// min/max values for the x position of the road
-	global.road_bountry_x_min = 582
-	global.road_bountry_x_max = 1340
+	global.road_bountry_x_min = 448
+	global.road_bountry_x_max = 1460
 
 }
