@@ -2,7 +2,15 @@
 
 draw_set_font(font_press_start_sm)
 
-draw_text(140, 200, "Score: " + number_format_commas(global.score))
+if global.game_state == GameState.Playing
+{
+	// score
+	var score_x = 120
+	var score_y = 160
+	draw_sprite(spr_scoreboard, 0, score_x, score_y)
+	draw_set_font(font_press_start_md)
+	draw_text(score_x, score_y, number_format_commas(global.score))
+}
 
 // show game over screen
 if global.game_state == GameState.Finished

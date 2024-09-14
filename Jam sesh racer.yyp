@@ -63,6 +63,7 @@
     {"id":{"name":"spr_logo_medrecruit","path":"sprites/spr_logo_medrecruit/spr_logo_medrecruit.yy",},},
     {"id":{"name":"spr_overlay_blue","path":"sprites/spr_overlay_blue/spr_overlay_blue.yy",},},
     {"id":{"name":"spr_player_crashed","path":"sprites/spr_player_crashed/spr_player_crashed.yy",},},
+    {"id":{"name":"spr_scoreboard","path":"sprites/spr_scoreboard/spr_scoreboard.yy",},},
     {"id":{"name":"spr_vehicle","path":"sprites/spr_vehicle/spr_vehicle.yy",},},
     {"id":{"name":"Untitled__1_","path":"sprites/Untitled__1_/Untitled__1_.yy",},},
     {"id":{"name":"Untitled__2_","path":"sprites/Untitled__2_/Untitled__2_.yy",},},
