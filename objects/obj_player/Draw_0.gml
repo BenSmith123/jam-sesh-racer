@@ -4,7 +4,7 @@ draw_self()
 // flash headlights when almost hitting a car
 if place_meeting(x, y-20, obj_vehicle)
 {
-	draw_sprite(spr_headlights, 0, x, y)
+	draw_sprite_ext(spr_headlights, 0, x, y, 1, 1, image_angle, image_blend, 1)
 }
 
 // DEBUG
