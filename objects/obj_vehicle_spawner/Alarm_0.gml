@@ -4,9 +4,10 @@ if global.game_state == GameState.Finished { exit }
 
 var lane = irandom_range(1, 6)
 var lane_x_offset = lane_gap * lane
+var random_x_offset = irandom_range(-14, 14) // random offset so cars aren't always perfectly aligned
 
 var vehicle = instance_create(x, y, obj_vehicle)
-vehicle.x = lane_start_x + lane_x_offset
+vehicle.x = lane_start_x + lane_x_offset + random_x_offset
 vehicle.vehicle_speed = global.scroll_speed - 1
 
 // half the speed if the vehicle is in the left lane

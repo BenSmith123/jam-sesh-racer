@@ -10,7 +10,7 @@ function initialise_globals()
 {
 	
 	// DEBUG
-	global.show_debug = true
+	global.show_debug = false
 
 	// SETUP
 	
