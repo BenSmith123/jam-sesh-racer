@@ -1,5 +1,6 @@
 
-vehicle_speed = 0 // set by spawner
+vehicle_speed = 0;
+vehicle_lane = 0; // set by spawner
 
 // pick a random image index
 image_index = irandom_range(0, image_number-1)
