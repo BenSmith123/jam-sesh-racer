@@ -1,4 +1,4 @@
-/// Helper functoin function for printing debug messages with multiple args
+/// Helper function for printing debug messages with multiple args
 function print(){
     var _str = "";
 
