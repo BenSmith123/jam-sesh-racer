@@ -8,7 +8,7 @@ function player_controls()
 	// move left
 	if keyboard_check(ord("A")) || keyboard_check(vk_left)
 	{
-		if x > global.road_bountry_x_min
+		if x > obj_controller.road_boundry_x_min
 		{
 			image_angle = 10
 			x -= steering_speed
@@ -20,7 +20,7 @@ function player_controls()
 	// move right
 	if keyboard_check(ord("D")) || keyboard_check(vk_right)
 	{
-		if x < global.road_bountry_x_max
+		if x < obj_controller.road_boundry_x_max
 		{
 			image_angle = -10
 			x += steering_speed
